@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:showIn="@layout/activity_main" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="@dimen/spacer_m"
+        android:layout_marginTop="@dimen/spacer_xl"
+        android:src="@drawable/uscis"
+        android:contentDescription="@string/uscis_logo"/>
+
+</FrameLayout>

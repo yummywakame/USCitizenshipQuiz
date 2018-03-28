@@ -1,0 +1,137 @@
+<resources>
+    <!-- App title. [CHAR LIMIT=NONE] -->
+    <string name="app_name">US Citizenship Quiz</string>
+    <!-- MAIN SCREEN STRINGS -->
+    <string name="uscis_logo">USCIS Logo</string>
+    <string name="activity_main_intro">Use these study and testing tools to prepare for your upcoming naturalization interview with the United States Citizenship and Immigration Services:</string>
+    <string name="activity_main_quiz_intro">You will be tested on 10 of the official questions you could be asked during the interview.</string>
+    <string name="activity_main_flash_intro">Use these official USCIS flash cards to study for your test. There are 100 questions to learn the answers to.</string>
+    <!-- QUIZ ACTIVITY STRINGS -->
+    <string name="activity_title_quiz">U.S. Civics Quiz</string>
+    <string name="activity_title_quiz_extended">U.S. Civics Knowledge Test</string>
+    <string name="activity_quiz_intro1">The civics test is an oral test and the interviewing officer will ask you up to ten questions from the list of 100.</string>
+    <string name="activity_quiz_intro2">You must answer six out of 10 questions correctly to pass the civics portion of the naturalization test. The USCIS Officer will not accept an incorrect answer.</string>
+    <string name="title_quiz_1">Question 1 of 10</string>
+    <string name="title_quiz_2">Question 2 of 10</string>
+    <string name="title_quiz_3">Question 3 of 10</string>
+    <string name="title_quiz_4">Question 4 of 10</string>
+    <string name="title_quiz_5">Question 5 of 10</string>
+    <string name="title_quiz_6">Question 6 of 10</string>
+    <string name="title_quiz_7">Question 7 of 10</string>
+    <string name="title_quiz_8">Question 8 of 10</string>
+    <string name="title_quiz_9">Question 9 of 10</string>
+    <string name="title_quiz_10">Question 10 of 10</string>
+    <string name="title_quiz_passed">Quiz Passed!</string>
+    <string name="title_quiz_failed">Quiz Failed</string>
+    <!-- FLASH CARD ACTIVITY STRINGS -->
+    <string name="activity_title_flash_cards">Flash Cards</string>
+    <string name="activity_title_flash_cards_extended">Study With Flash Cards</string>
+    <string name="activity_flash_cards_intro1">Test your knowledge with 100 test questions and answers.</string>
+    <string name="activity_flash_cards_intro2">For the ideal viewing experience your screen will automatically rotate to landscape view.</string>
+    <!-- BUTTONS -->
+    <string name="quiz_button_submit">Submit</string>
+    <string name="button_first_question">First Question »</string>
+    <string name="button_retake_quiz">Retake Quiz</string>
+    <string name="button_proceed">Proceed »</string>
+    <!-- TOAST MESSAGES -->
+    <!-- Correct answer toast -->
+    <string name="toast_correct">Correct!</string>
+    <!-- Incorrect answer toast -->
+    <string name="toast_incorrect">INCORRECT!</string>
+    <!-- QUIZ Question 1 selection -->
+    <string name="quiz_1_question">Who was the first U.S. President?</string>
+    <string name="quiz_1_answer_1">Abraham Lincoln</string>
+    <string name="quiz_1_answer_2">George Washington</string>
+    <string name="quiz_1_answer_3">John Adams</string>
+    <string name="quiz_1_answer_4">Thomas Jefferson</string>
+    <!-- QUIZ Question 2 selection -->
+    <string name="quiz_2_question">When was the Constitution written?</string>
+    <string name="quiz_2_answer_1">1878</string>
+    <string name="quiz_2_answer_2">1816</string>
+    <string name="quiz_2_answer_3">1789</string>
+    <string name="quiz_2_answer_4">1787</string>
+    <!-- QUIZ Question 3 selection -->
+    <string name="quiz_3_question">What are the two parts of the U.S. Congress?</string>
+    <string name="quiz_3_answer_1">Senate</string>
+    <string name="quiz_3_answer_2">Judiciary</string>
+    <string name="quiz_3_answer_3">House (of Representatives)</string>
+    <string name="quiz_3_answer_4">Oval Office</string>
+    <!-- QUIZ Question 4 selection -->
+    <string name="quiz_4_question">How many justices are on the Supreme Court?</string>
+    <string name="quiz_4_answer">9</string>
+    <string name="quiz_4_hint">0</string>
+    <!-- QUIZ Question 5 selection -->
+    <string name="quiz_5_question">Who did the United States fight in World War II?</string>
+    <string name="quiz_5_answer_1">Russia</string>
+    <string name="quiz_5_answer_2">Japan</string>
+    <string name="quiz_5_answer_3">China</string>
+    <string name="quiz_5_answer_4">Germany</string>
+    <string name="quiz_5_answer_5">Italy</string>
+    <!-- QUIZ Question 6 selection -->
+    <string name="quiz_6_question">If both the President and the Vice President can no longer serve, who becomes President?</string>
+    <string name="quiz_6_answer_1">The Chief of Staff</string>
+    <string name="quiz_6_answer_2">The Defense Secretary</string>
+    <string name="quiz_6_answer_3">The Speaker of the House</string>
+    <string name="quiz_6_answer_4">The Attorney General</string>
+    <string name="quiz_6_answer_5">The Chief Strategist</string>
+    <!-- QUIZ Question 7 selection -->
+    <string name="quiz_7_question">Name one American Indian tribe in the United States:</string>
+    <string name="quiz_7_hint">Type tribe name here</string>
+    <string name="quiz_7_answer_1">Cherokee</string>
+    <string name="quiz_7_answer_2">Navajo</string>
+    <string name="quiz_7_answer_3">Sioux</string>
+    <string name="quiz_7_answer_4">Chippewa</string>
+    <string name="quiz_7_answer_5">Choctaw</string>
+    <string name="quiz_7_answer_6">Pueblo</string>
+    <string name="quiz_7_answer_7">Apache</string>
+    <string name="quiz_7_answer_8">Iroquois</string>
+    <string name="quiz_7_answer_9">Creek</string>
+    <string name="quiz_7_answer_10">Blackfeet</string>
+    <string name="quiz_7_answer_11">Seminole</string>
+    <string name="quiz_7_answer_12">Cheyenne</string>
+    <string name="quiz_7_answer_13">Arawak</string>
+    <string name="quiz_7_answer_14">Shawnee</string>
+    <string name="quiz_7_answer_15">Mohegan</string>
+    <string name="quiz_7_answer_16">Huron</string>
+    <string name="quiz_7_answer_17">Oneida</string>
+    <string name="quiz_7_answer_18">Lakota</string>
+    <string name="quiz_7_answer_19">Crow</string>
+    <string name="quiz_7_answer_20">Teton</string>
+    <string name="quiz_7_answer_21">Hopi</string>
+    <string name="quiz_7_answer_22">Mahican</string>
+    <string name="quiz_7_answer_23">Mohecan</string>
+    <string name="quiz_7_answer_24">Mohican</string>
+    <string name="quiz_7_answer_tip">Either: Cherokee, Navajo, Sioux, Chippewa, Choctaw, Pueblo, Apache, Iroquois, Creek, Blackfeet, Seminole, Cheyenne, Arawak, Shawnee, Mohegan, Huron, Oneida, Lakota, Crow or Hopi.</string>
+    <!-- QUIZ Question 8 selection -->
+    <string name="quiz_8_question">The House of Representatives has how many voting members?</string>
+    <string name="quiz_8_answer_1">Four hundred thirty-five (435)</string>
+    <string name="quiz_8_answer_2">One hundred (100)</string>
+    <string name="quiz_8_answer_3">Two hundred thirty-five (235)</string>
+    <string name="quiz_8_answer_4">50 / 50</string>
+    <!-- QUIZ Question 8 selection -->
+    <string name="quiz_9_question">Who wrote the Declaration of Independence?</string>
+    <string name="quiz_9_answer_1">(Thomas) Jefferson</string>
+    <string name="quiz_9_answer_2">(James) Madison</string>
+    <string name="quiz_9_answer_3">(Alexander) Hamilton</string>
+    <string name="quiz_9_answer_4">(George) Washington</string>
+    <!-- QUIZ Question 10 selection -->
+    <string name="quiz_10_question">There were 13 original states. Name three:</string>
+    <string name="quiz_10_answer_1">California</string>
+    <string name="quiz_10_answer_2">New York</string>
+    <string name="quiz_10_answer_3">Pennsylvania</string>
+    <string name="quiz_10_answer_4">Georgia</string>
+    <string name="quiz_10_answer_5">Oregon</string>
+    <string name="quiz_10_answer_tip">Also valid: New Hampshire, Massachusetts, Rhode Island, Connecticut, New Jersey, Delaware, Maryland, Virginia, North Carolina and South Carolina</string>
+    <!-- QUIZ Results text -->
+    <string name="quiz_passed_title">WELL DONE!</string>
+    <string name="quiz_passed_intro">You passed the quiz with a score of:</string>
+    <string name="quiz_failed_title">TRY AGAIN</string>
+    <string name="quiz_failed_intro">You failed the quiz with a score of:</string>
+    <string name="quiz_results_score1">0</string>
+    <string name="quiz_results_score2">/</string>
+    <string name="quiz_results_score3">10</string>
+    <string name="quiz_results_suggestion">There are 100 Questions to study. Practice for your test using the USCIS Flash Cards:</string>
+    <!-- FLASH CARD buttons -->
+    <string name="slide_button_prev">« PREV</string>
+    <string name="slide_button_next">NEXT »</string>
+</resources>

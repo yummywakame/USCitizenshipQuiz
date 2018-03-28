@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.uscitizenshipquiz.QuizPassedActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/include_image_flag_top_tall" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacer_xl"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/spacer_xl"
+                android:textAlignment="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0dp"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/include_quiz_progress" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/spacer_m"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/final_score"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="@dimen/spacer_s"
+                            android:text="@string/quiz_passed_title"
+                            android:textColor="@color/mediumBlue"
+                            android:textSize="@dimen/text_size_xl" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="1sp"
+                            android:paddingBottom="@dimen/spacer_s"
+                            android:text="@string/quiz_passed_intro"
+                            android:textColor="@color/lightBlue"
+                            android:textSize="@dimen/text_size_m" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:textAlignment="center">
+
+                            <TextView
+                                android:id="@+id/finalscore"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:lineSpacingExtra="1sp"
+                                android:paddingBottom="@dimen/spacer_l"
+                                android:text="@string/quiz_results_score1"
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/mediumRed"
+                                android:textSize="@dimen/text_size_xl"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/spacer_s"
+                                android:layout_marginEnd="@dimen/spacer_s"
+                                android:lineSpacingExtra="1sp"
+                                android:paddingBottom="@dimen/spacer_l"
+                                android:text="@string/quiz_results_score2"
+                                android:textAlignment="center"
+                                android:textColor="@color/darkGray"
+                                android:textSize="@dimen/text_size_m"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:lineSpacingExtra="1sp"
+                                android:paddingBottom="@dimen/spacer_l"
+                                android:text="@string/quiz_results_score3"
+                                android:textAlignment="textStart"
+                                android:textColor="@color/darkGray"
+                                android:textSize="@dimen/text_size_m"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/gradient_background_blue"
+                            android:onClick="startQuiz"
+                            android:text="@string/button_retake_quiz"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/text_size_button_s" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/spacer_xl"
+                android:textAlignment="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/spacer_m"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="1sp"
+                        android:paddingBottom="@dimen/spacer_s"
+                        android:text="@string/quiz_results_suggestion"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="@dimen/text_size_s" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/gradient_background_blue"
+                        android:onClick="openFlashCardsActivity"
+                        android:text="@string/activity_title_flash_cards"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/text_size_button_s" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

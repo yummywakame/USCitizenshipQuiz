@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.uscitizenshipquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- QUIZ INTRO SCREEN -->
+        <activity
+            android:name=".QuizIntroActivity"
+            android:label="@string/activity_title_quiz"
+            android:parentActivityName=".MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <!-- FLASH CARD INTRO SCREEN -->
+        <activity
+            android:name=".FlashCardsIntroActivity"
+            android:label="@string/activity_title_flash_cards"
+            android:parentActivityName=".MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <!-- QUIZ QUESTION 1/10 -->
+        <activity
+            android:name=".Quiz1Activity"
+            android:label="@string/title_quiz_1"
+            android:parentActivityName=".QuizIntroActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuizIntroActivity" />
+        </activity>
+        <!-- QUIZ QUESTION 2/10 -->
+        <activity
+            android:name=".Quiz2Activity"
+            android:label="@string/title_quiz_2"
+            android:parentActivityName=".QuizIntroActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuizIntroActivity" />
+        </activity>
+        <!-- QUIZ QUESTION 3/10 -->
+        <activity
+            android:name=".Quiz3Activity"
+            android:label="@string/title_quiz_3"
+            android:parentActivityName=".QuizIntroActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuizIntroActivity" />
+        </activity>
+        <!-- QUIZ QUESTION 4/10 -->
+        <activity
+            android:name=".Quiz4Activity"
+            android:label="@string/title_quiz_4"
+            android:parentActivityName=".QuizIntroActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuizIntroActivity" />
+        </activity>
+        <!-- QUIZ QUESTION 5/10 -->
+        <activity
+            android:name=".Quiz5Activity"
+            android:label="@string/title_quiz_5"
+            android:parentActivityName=".QuizIntroActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuizIntroActivity" />
+        </activity>
+        <!-- QUIZ QUESTION 6/10 -->
+        <activity
+            android:name=".Quiz6Activity"
+            android:label="@string/title_quiz_6"
+            android:parentActivityName=".QuizIntroActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuizIntroActivity" />
+        </activity>
+        <!-- QUIZ QUESTION 7/10 -->
+        <activity
+            android:name=".Quiz7Activity"
+            android:label="@string/title_quiz_7"
+            android:parentActivityName=".QuizIntroActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuizIntroActivity" />
+        </activity>
+        <!-- QUIZ QUESTION 8/10 -->
+        <activity
+            android:name=".Quiz8Activity"
+            android:label="@string/title_quiz_8"
+            android:parentActivityName=".QuizIntroActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuizIntroActivity" />
+        </activity>
+        <!-- QUIZ QUESTION 9/10 -->
+        <activity
+            android:name=".Quiz9Activity"
+            android:label="@string/title_quiz_9"
+            android:parentActivityName=".QuizIntroActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuizIntroActivity" />
+        </activity>
+        <!-- QUIZ QUESTION 10/10 -->
+        <activity
+            android:name=".Quiz10Activity"
+            android:label="@string/title_quiz_10"
+            android:parentActivityName=".QuizIntroActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuizIntroActivity" />
+        </activity>
+        <!-- QUIZ PASSED -->
+        <activity
+            android:name=".QuizPassedActivity"
+            android:label="@string/title_quiz_passed"
+            android:parentActivityName=".QuizIntroActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuizIntroActivity" />
+        </activity>
+        <!-- QUIZ PASSED -->
+        <activity
+            android:name=".QuizFailedActivity"
+            android:label="@string/title_quiz_failed"
+            android:parentActivityName=".QuizIntroActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuizIntroActivity" />
+        </activity>
+        <!-- FLASH CARDS SCREEN -->
+        <activity
+            android:name=".FlashCardsActivity"
+            android:label="@string/activity_title_flash_cards"
+            android:parentActivityName=".FlashCardsIntroActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FlashCardsIntroActivity" />
+        </activity>
+    </application>
+
+</manifest>

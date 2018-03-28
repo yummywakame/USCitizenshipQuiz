@@ -1,0 +1,21 @@
+<resources>
+    <!-- margins / padding -->
+    <dimen name="spacer_xs">2dp</dimen>
+    <dimen name="spacer_s">10dp</dimen>
+    <dimen name="spacer_m">20dp</dimen>
+    <dimen name="spacer_l">30dp</dimen>
+    <dimen name="spacer_xl">40dp</dimen>
+    <dimen name="spacer_xxl">60dp</dimen>
+    <!-- text sizes -->
+    <dimen name="text_size_s">16sp</dimen>
+    <dimen name="text_size_m">18sp</dimen>
+    <dimen name="text_size_l">28sp</dimen>
+    <dimen name="text_size_xl">30sp</dimen>
+    <dimen name="text_size_button_s">18sp</dimen>
+    <dimen name="text_size_button_m">26sp</dimen>
+    <dimen name="text_size_button_l">30sp</dimen>
+    <dimen name="text_size_quiz_option">16sp</dimen>
+    <dimen name="text_size_quiz_tip">16sp</dimen>
+    <dimen name="text_size_quiz_input">18sp</dimen>
+    <dimen name="text_size_toast">15sp</dimen>
+</resources>
