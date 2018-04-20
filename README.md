@@ -17,9 +17,9 @@ alt="Citizenship Quiz App Demo" width="740" height="416" border="10" /></a>
 The Flash Card portion of the app is restricted in the code to display in portrait mode for best viewing.
 ![Flash Card Section](./screenshot_flashcards.png)
 
-## Additional Features
+## Additional Features Not In The Course or Required
 1. Custom app icon
 2. Multiple scrollable activities instead of one scrolling activity
-3. Primary and secondary progress bar
+3. Progress Bar (primary and secondary)
 4. Custom shapes and gradients
 5. Flash card activity with scrollable views
