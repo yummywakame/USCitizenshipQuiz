@@ -23,3 +23,4 @@ The Flash Card portion of the app is restricted in the code to display in portra
 3. Progress Bar (primary and secondary)
 4. Custom shapes and gradients
 5. Flash card activity with scrollable views
+
