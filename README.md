@@ -24,3 +24,5 @@ The Flash Card portion of the app is restricted in the code to display in portra
 4. Custom shapes and gradients
 5. Flash card activity with scrollable views
 
+## Resources
+[American Flag Stock Photo](https://depositphotos.com/25603477/stock-photo-american-flag.html) - Deposit Photos
