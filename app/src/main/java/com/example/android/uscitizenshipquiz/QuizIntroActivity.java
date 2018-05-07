@@ -2,13 +2,11 @@ package com.example.android.uscitizenshipquiz;
 
 import android.content.Intent;
 import android.content.res.ColorStateList;
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Spannable;
 import android.text.SpannableString;
-import android.text.style.BackgroundColorSpan;
 import android.text.style.TextAppearanceSpan;
 import android.view.View;
 import android.widget.TextView;
@@ -24,7 +22,7 @@ public class QuizIntroActivity extends AppCompatActivity {
         int index = 3;
         String regularExpression = " ";
         String text = getString(R.string.activity_quiz_intro2);
-        TextView textView = (TextView) findViewById(R.id.instructions);
+        TextView textView = findViewById(R.id.instructions);
         if (textView != null) {
             textView.setText(text);
             highlightTextPart(textView, index, regularExpression);

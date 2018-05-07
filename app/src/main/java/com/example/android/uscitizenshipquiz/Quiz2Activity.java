@@ -1,19 +1,18 @@
 package com.example.android.uscitizenshipquiz;
 
 import android.content.Intent;
-import android.graphics.Color;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.RadioButton;
-import android.view.View.OnClickListener;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -54,7 +53,7 @@ public class Quiz2Activity extends AppCompatActivity {
             public void onClick(View v) {
 
                 // disable button
-                Button btn = (Button) findViewById(R.id.btnSubmit);
+                Button btn = findViewById(R.id.btnSubmit);
                 btn.setAlpha(.6f);
                 btn.setEnabled(false);
 
@@ -96,16 +95,16 @@ public class Quiz2Activity extends AppCompatActivity {
         View layout;
         Toast toast = new Toast(getApplicationContext());
         toast.setGravity(Gravity.BOTTOM, 0, 180);
-        if (toastType == true) {
+        if (toastType) {
             layout = inflater.inflate(R.layout.toast_correct,
                     (ViewGroup) findViewById(R.id.toast_layout_root));
-            TextView text = (TextView) layout.findViewById(R.id.text);
+            TextView text = layout.findViewById(R.id.text);
             text.setText(getString(R.string.toast_correct));
             toast.setDuration(Toast.LENGTH_SHORT);
         } else {
             layout = inflater.inflate(R.layout.toast_incorrect,
                     (ViewGroup) findViewById(R.id.toast_layout_root));
-            TextView text = (TextView) layout.findViewById(R.id.text);
+            TextView text = layout.findViewById(R.id.text);
             text.setText(getString(R.string.toast_incorrect));
             toast.setDuration(Toast.LENGTH_LONG);
         }

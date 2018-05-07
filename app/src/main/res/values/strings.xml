@@ -52,6 +52,7 @@
     <string name="quiz_2_answer_4">1787</string>
     <!-- QUIZ Question 3 selection -->
     <string name="quiz_3_question">What are the two parts of the U.S. Congress?</string>
+    <string name="quiz_3_question_instructions">Select two correct answers:</string>
     <string name="quiz_3_answer_1">Senate</string>
     <string name="quiz_3_answer_2">Judiciary</string>
     <string name="quiz_3_answer_3">House (of Representatives)</string>
@@ -62,6 +63,7 @@
     <string name="quiz_4_hint">0</string>
     <!-- QUIZ Question 5 selection -->
     <string name="quiz_5_question">Who did the United States fight in World War II?</string>
+    <string name="quiz_5_question_instructions">Select 1 &#8211; 3 correct answers:</string>
     <string name="quiz_5_answer_1">Russia</string>
     <string name="quiz_5_answer_2">Japan</string>
     <string name="quiz_5_answer_3">China</string>
@@ -116,6 +118,7 @@
     <string name="quiz_9_answer_4">(George) Washington</string>
     <!-- QUIZ Question 10 selection -->
     <string name="quiz_10_question">There were 13 original states. Name three:</string>
+    <string name="quiz_10_question_instructions">Select all three:</string>
     <string name="quiz_10_answer_1">California</string>
     <string name="quiz_10_answer_2">New York</string>
     <string name="quiz_10_answer_3">Pennsylvania</string>

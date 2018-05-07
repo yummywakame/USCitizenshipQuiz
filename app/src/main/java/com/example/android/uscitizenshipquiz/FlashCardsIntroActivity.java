@@ -1,17 +1,9 @@
 package com.example.android.uscitizenshipquiz;
 
 import android.content.Intent;
-import android.content.res.ColorStateList;
-import android.graphics.Color;
-import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Spannable;
-import android.text.SpannableString;
-import android.text.style.BackgroundColorSpan;
-import android.text.style.TextAppearanceSpan;
 import android.view.View;
-import android.widget.TextView;
 
 public class FlashCardsIntroActivity extends AppCompatActivity {
 
