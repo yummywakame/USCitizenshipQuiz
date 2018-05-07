@@ -1,4 +1,4 @@
-## Quiz App for Grow With Google Udacity Nanodegree - Android Basics
+## Grow With Google Android Basics Nanodegree: PROJECT 3
 # U.S. Citizenship Quiz
 
 Used **API 23: Android 6.0 (Marshmallow)**
